@@ -12,7 +12,7 @@ example:
 In this triangle the maximum total is:  6 + 5 + 7 + 8 = 26
 
 ## Ruby
-the chosen programming language was Ruby for several reasons, but some of the major ones were:
+The chosen programming language was Ruby for several reasons, but some of the major ones were:
 
 * Readability
 * Agility in development
