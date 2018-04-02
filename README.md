@@ -1,6 +1,7 @@
 # Hell triangle - challenge
 
 Given a triangle of numbers, find the naximum total from top to bottom.
+
 example:
 ```
    6
