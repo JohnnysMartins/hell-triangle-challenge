@@ -28,4 +28,28 @@ class TriangleHellTest < Minitest::Test
     ])
     assert_equal 28, triangle.total_sum
   end
+
+  def test_triangle_main_example
+    triangle = HellTriangle.new([
+      [6],
+      [3, 5],
+      [9, 7, 1],
+      [4, 6, 8, 4],
+    ])
+    assert_equal 26, triangle.total_sum
+  end
+
+  def test_triangle_long_path
+    triangle = HellTriangle.new([
+      [9],
+      [9, 5],
+      [1, 9, 1],
+      [1, 9, 8, 4],
+      [1, 4, 9, 1, 1],
+      [1, 2, 1, 9, 1, 9],
+      [1, 1, 7, 1, 8, 1, 1],
+      [1, 2, 9, 1, 4, 6, 1, 1],
+    ])
+    assert_equal 68, triangle.total_sum
+  end
 end
